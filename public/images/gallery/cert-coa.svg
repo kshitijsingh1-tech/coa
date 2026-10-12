@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0e12" />
+      <stop offset="100%" stop-color="#14151a" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBA45C" />
+      <stop offset="100%" stop-color="#E56515" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E56515" />
+      <stop offset="100%" stop-color="#FBA45C" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#bg)" />
+  <!-- Certificate Border -->
+  <rect x="30" y="30" width="740" height="440" rx="12" fill="none" stroke="#919599" stroke-width="1.5" stroke-opacity="0.3" />
+  <rect x="42" y="42" width="716" height="416" rx="8" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.75" />
+  
+  <!-- Certificate Seal in Clockwork -->
+  <circle cx="400" cy="120" r="45" fill="#1a1c22" stroke="url(#gold)" stroke-width="3" />
+  <polygon points="400,90 410,112 434,112 414,126 422,148 400,134 378,148 386,126 366,112 390,112" fill="url(#gold)" />
+  
+  <!-- Text Elements -->
+  <text x="400" y="200" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#FBA45C" letter-spacing="4" text-anchor="middle">DEPARTMENT OF COMPUTER SCIENCE &amp; ENGINEERING</text>
+  <text x="400" y="240" font-family="system-ui, sans-serif" font-size="28" font-weight="800" fill="#F8F8F8" text-anchor="middle">CERTIFICATE OF EXCELLENCE</text>
+  <text x="400" y="280" font-family="system-ui, sans-serif" font-size="16" fill="#CDCDCB" text-anchor="middle">Computer Organization &amp; Microarchitecture</text>
+  
+  <rect x="250" y="310" width="300" height="40" rx="8" fill="#14151a" stroke="#E56515" stroke-width="1.5" />
+  <text x="400" y="335" font-family="monospace" font-size="14" font-weight="700" fill="#FBA45C" text-anchor="middle">GRADE: S (TOP 2% PERCENTILE)</text>
+  
+  <!-- Signatures and Verification -->
+  <line x1="120" y1="410" x2="300" y2="410" stroke="#919599" stroke-width="1" stroke-opacity="0.5" />
+  <text x="210" y="430" font-family="system-ui, sans-serif" font-size="12" fill="#919599" text-anchor="middle">Faculty Course Lead</text>
+  
+  <line x1="500" y1="410" x2="680" y2="410" stroke="#919599" stroke-width="1" stroke-opacity="0.5" />
+  <text x="590" y="430" font-family="system-ui, sans-serif" font-size="12" fill="#919599" text-anchor="middle">Head of Department</text>
+</svg>

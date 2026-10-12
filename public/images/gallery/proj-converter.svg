@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="convGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E56515" />
+      <stop offset="100%" stop-color="#FBA45C" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="#0d0e12" />
+  
+  <!-- Circuit tracks in Clockwork colors -->
+  <line x1="100" y1="120" x2="300" y2="120" stroke="#919599" stroke-width="1.5" stroke-opacity="0.3" />
+  <circle cx="300" cy="120" r="4" fill="#E56515" />
+  <line x1="500" y1="380" x2="700" y2="380" stroke="#919599" stroke-width="1.5" stroke-opacity="0.3" />
+  <circle cx="500" cy="380" r="4" fill="#FBA45C" />
+
+  <!-- Code/Converter Window Mockup -->
+  <rect x="140" y="80" width="520" height="340" rx="12" fill="#14151a" stroke="#919599" stroke-width="1.5" stroke-opacity="0.25" />
+  <circle cx="165" cy="105" r="5" fill="#E56515" />
+  <circle cx="180" cy="105" r="5" fill="#FBA45C" />
+  <circle cx="195" cy="105" r="5" fill="#CDCDCB" />
+  
+  <text x="400" y="110" font-family="monospace" font-size="12" fill="#919599" text-anchor="middle">coa-converter.engine.ts</text>
+  
+  <rect x="170" y="140" width="460" height="70" rx="8" fill="#1a1c22" stroke="#E56515" stroke-width="1.2" stroke-opacity="0.6" />
+  <text x="190" y="170" font-family="monospace" font-size="13" fill="#FBA45C">BASE 10: 4294967295</text>
+  <text x="190" y="195" font-family="monospace" font-size="11" fill="#CDCDCB">Radix Transform &gt;&gt; BigInt [2^32 - 1]</text>
+  
+  <!-- Arrow in Clockwork orange -->
+  <polygon points="400,225 410,235 390,235" fill="#E56515" />
+  
+  <rect x="170" y="250" width="460" height="70" rx="8" fill="#1a1c22" stroke="#FBA45C" stroke-width="1.2" stroke-opacity="0.6" />
+  <text x="190" y="280" font-family="monospace" font-size="13" fill="#FBA45C">BASE 16: 0xFFFFFFFF</text>
+  <text x="190" y="305" font-family="monospace" font-size="11" fill="#CDCDCB">BASE 02: 1111 1111 1111 1111 1111 1111 1111 1111</text>
+  
+  <rect x="260" y="340" width="280" height="30" rx="6" fill="#14151a" stroke="#919599" stroke-width="1" stroke-opacity="0.2" />
+  <text x="400" y="360" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#F8F8F8" text-anchor="middle">Arbitrary-Precision BigInt Engine</text>
+</svg>

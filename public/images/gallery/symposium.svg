@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="sympGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14151a" />
+      <stop offset="100%" stop-color="#1a1c22" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="#0d0e12" />
+  <rect x="50" y="50" width="700" height="400" rx="12" fill="url(#sympGrad)" stroke="#E56515" stroke-width="1.5" stroke-opacity="0.5" />
+  
+  <text x="400" y="120" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#FBA45C" letter-spacing="3" text-anchor="middle">ANNUAL STUDENT TECHNICAL SYMPOSIUM</text>
+  <text x="400" y="170" font-family="system-ui, sans-serif" font-size="28" font-weight="900" fill="#F8F8F8" text-anchor="middle">INSTRUCTION PIPELINE HAZARDS IN RISC</text>
+  
+  <!-- Presentation Pipeline Diagram in Clockwork Colors -->
+  <g transform="translate(150, 220)">
+    <rect x="0" y="0" width="90" height="60" rx="6" fill="#0d0e12" stroke="#E56515" stroke-width="1.5" />
+    <text x="45" y="35" font-family="monospace" font-size="14" fill="#FBA45C" text-anchor="middle">IF</text>
+    <text x="45" y="50" font-family="system-ui" font-size="9" fill="#919599" text-anchor="middle">Fetch</text>
+    
+    <line x1="90" y1="30" x2="105" y2="30" stroke="#E56515" stroke-width="2" />
+    
+    <rect x="105" y="0" width="90" height="60" rx="6" fill="#0d0e12" stroke="#E56515" stroke-width="1.5" />
+    <text x="150" y="35" font-family="monospace" font-size="14" fill="#FBA45C" text-anchor="middle">ID</text>
+    <text x="150" y="50" font-family="system-ui" font-size="9" fill="#919599" text-anchor="middle">Decode</text>
+    
+    <line x1="195" y1="30" x2="210" y2="30" stroke="#E56515" stroke-width="2" />
+    
+    <rect x="210" y="0" width="90" height="60" rx="6" fill="#0d0e12" stroke="#E56515" stroke-width="1.5" />
+    <text x="255" y="35" font-family="monospace" font-size="14" fill="#FBA45C" text-anchor="middle">EX</text>
+    <text x="255" y="50" font-family="system-ui" font-size="9" fill="#919599" text-anchor="middle">Execute</text>
+    
+    <line x1="300" y1="30" x2="315" y2="30" stroke="#E56515" stroke-width="2" />
+    
+    <rect x="315" y="0" width="90" height="60" rx="6" fill="#0d0e12" stroke="#E56515" stroke-width="1.5" />
+    <text x="360" y="35" font-family="monospace" font-size="14" fill="#FBA45C" text-anchor="middle">MEM</text>
+    <text x="360" y="50" font-family="system-ui" font-size="9" fill="#919599" text-anchor="middle">Memory</text>
+    
+    <line x1="405" y1="30" x2="420" y2="30" stroke="#E56515" stroke-width="2" />
+    
+    <rect x="420" y="0" width="90" height="60" rx="6" fill="#0d0e12" stroke="#E56515" stroke-width="1.5" />
+    <text x="465" y="35" font-family="monospace" font-size="14" fill="#FBA45C" text-anchor="middle">WB</text>
+    <text x="465" y="50" font-family="system-ui" font-size="9" fill="#919599" text-anchor="middle">Write-Back</text>
+  </g>
+  
+  <text x="400" y="340" font-family="system-ui, sans-serif" font-size="14" fill="#CDCDCB" text-anchor="middle">Presenter: Kshitij (Roll No: 22CSE042) • Branch: Computer Science &amp; Engineering</text>
+</svg>

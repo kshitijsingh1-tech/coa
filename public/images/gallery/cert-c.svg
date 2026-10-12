@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="cGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E56515" />
+      <stop offset="100%" stop-color="#FBA45C" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="#0d0e12" />
+  <rect x="30" y="30" width="740" height="440" rx="12" fill="none" stroke="#919599" stroke-width="1.5" stroke-opacity="0.3" />
+  
+  <circle cx="400" cy="140" r="48" fill="#14151a" stroke="url(#cGrad)" stroke-width="3" />
+  <text x="400" y="158" font-family="system-ui, sans-serif" font-size="44" font-weight="900" fill="#FBA45C" text-anchor="middle">C</text>
+  
+  <text x="400" y="240" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#F8F8F8" text-anchor="middle">SYSTEMS PROGRAMMING &amp; MEMORY ARCHITECTURE</text>
+  <text x="400" y="275" font-family="system-ui, sans-serif" font-size="16" fill="#CDCDCB" text-anchor="middle">Certified in Pointer Arithmetic, POSIX APIs &amp; Dynamic Allocation</text>
+  
+  <rect x="220" y="315" width="360" height="40" rx="8" fill="#14151a" stroke="#E56515" stroke-width="1.5" />
+  <text x="400" y="340" font-family="monospace" font-size="14" fill="#FBA45C" text-anchor="middle">VERIFIED CERTIFICATE :: SCORE 96%</text>
+  
+  <text x="400" y="420" font-family="system-ui, sans-serif" font-size="13" fill="#919599" text-anchor="middle">Issued to Kshitij (CSE) • Credential ID: CSE-SYS-2025-992</text>
+</svg>
