@@ -104,12 +104,12 @@ export const PORTFOLIO_DATA: PortfolioConfig = {
     rollNumber: "25BAI10037",
     branch: "B.Tech – Artificial Intelligence",
     institution: "Department of Computer Science & Engineering",
-    semester: "B.Tech — 1st Year (AI & Systems)",
-    tagline: "Building intelligent backends and deploying real-world AI systems.",
+    semester: "B.Tech — 2nd Year",
+    tagline: "Building intelligent backends and deploying real-world AI applications.",
     shortBio:
-      "First-year AI undergraduate passionate about building intelligent backends and deploying real-world AI systems. Focused on the intersection of clean software architecture and powerful language models — from autonomous agents to conversational AI.",
+      "Second-year AI undergraduate passionate about building intelligent backends and deploying real-world AI applications. Focused on the intersection of clean software architecture and powerful language models — from autonomous agents to conversational AI.",
     fullBio: [
-      "I am an ambitious AI & Computer Science student passionate about building intelligent backends, computer architecture, and deploying real-world AI systems.",
+      "I am an ambitious AI & Computer Science student passionate about building intelligent backends and deploying real-world AI applications.",
       "My focus centers on the intersection of clean software architecture and powerful language models — from autonomous agents with tool-calling capabilities to production conversational AI with 24/7 uptime.",
       "Comfortable working across the backend stack with Python, C++, FastAPI, and local/cloud LLM integrations, while actively sharpening algorithmic problem-solving with 100+ problems solved on LeetCode.",
     ],
@@ -139,10 +139,10 @@ export const PORTFOLIO_DATA: PortfolioConfig = {
       {
         degree: "Bachelor of Technology in Artificial Intelligence",
         institution: "Department of Computer Science & Engineering",
-        period: "2025 — Present",
-        grade: "B.Tech — 1st Year",
+        period: "2024 — Present",
+        grade: "B.Tech — 2nd Year",
         description:
-          "Specialized program focused on AI systems, backend engineering, applied ML, computer architecture (COA/CUA), and algorithmic problem solving in C++.",
+          "Specialized program focused on Artificial Intelligence, backend engineering, applied ML, computer architecture, and algorithmic problem solving in C++.",
         coursework: [
           "Computer Organization & Architecture (COA)",
           "Data Structures & Algorithms in C++",
@@ -261,7 +261,7 @@ export const PORTFOLIO_DATA: PortfolioConfig = {
   achievements: [
     {
       title: "Jarvis — Autonomous AI System Agent",
-      category: "AI & Systems Engineering",
+      category: "Autonomous AI & Intelligent Agents",
       description:
         "Designed an LLM-powered agent capable of interpreting natural language user commands, planning multi-step actions, and executing them via OS commands, web APIs, and automation scripts using Mistral AI.",
       techStack: ["Python", "Mistral AI", "FastAPI", "Automation", "AI Agent"],

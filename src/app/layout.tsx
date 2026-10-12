@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: `${PORTFOLIO_DATA.profile.name} — Computer Science Portfolio | COA & Systems`,
+  title: `${PORTFOLIO_DATA.profile.name} — Computer Science & Artificial Intelligence Portfolio`,
   description: `${PORTFOLIO_DATA.profile.shortBio}`,
   keywords: [
     "Computer Science",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: PORTFOLIO_DATA.profile.name }],
   openGraph: {
-    title: `${PORTFOLIO_DATA.profile.name} — Computer Science & Architecture Portfolio`,
+    title: `${PORTFOLIO_DATA.profile.name} — Computer Science & AI Portfolio`,
     description: `${PORTFOLIO_DATA.profile.shortBio}`,
     type: "website",
     locale: "en_US",

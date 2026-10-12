@@ -71,7 +71,7 @@ export function ContactSection() {
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1 text-xs font-mono text-slate-600">
             <div className="text-slate-900 font-semibold">{profile.institution}</div>
             <div>Roll Number: {profile.rollNumber} • {profile.branch}</div>
-            <div className="text-[#E56515] font-medium pt-1">● Available for Systems Research &amp; Internships</div>
+            <div className="text-[#E56515] font-medium pt-1">● Available for AI Research &amp; Engineering Internships</div>
           </div>
         </div>
 

@@ -29,7 +29,7 @@ export function AboutSection() {
       <SectionHeading
         badge="Academic & Engineering Profile"
         title="About Me"
-        subtitle="AI & Systems undergraduate focused on intelligent backends, computer architecture, and autonomous AI agents."
+        subtitle="AI undergraduate focused on intelligent backends and autonomous AI agents."
       />
 
       {/* Top Status & Language Pills (Matching reference top pill) */}
@@ -96,7 +96,7 @@ export function AboutSection() {
                 <span className="font-semibold text-emerald-600">
                   {academic.education[0]?.grade}
                 </span>
-                <span>• Focus: AI Systems &amp; Microarchitecture</span>
+                <span>• Specialization: Artificial Intelligence</span>
               </div>
             </div>
           </div>
@@ -173,7 +173,7 @@ export function AboutSection() {
               Core Engineering Stack &amp; Tools
             </h3>
             <span className="text-xs font-mono text-slate-500">
-              AI • Backend • Systems
+              AI • Backend • Full-Stack
             </span>
           </div>
 

@@ -128,7 +128,7 @@ export function HeroSection() {
                     {profile.institution}
                   </div>
                   <div className="text-[11px] text-slate-500 truncate">
-                    Roll: {profile.rollNumber} • Core: COA &amp; Systems
+                    Roll: {profile.rollNumber} • {profile.branch}
                   </div>
                 </div>
               </div>

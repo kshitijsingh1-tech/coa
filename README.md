@@ -1,6 +1,6 @@
 # Kshitij Singh — Computer Science & AI Portfolio & COA Hub
 
-A high-performance personal portfolio website engineered for **Kshitij Singh** (Roll No: `25BAI10037`, B.Tech Artificial Intelligence, 1st Year). Features an interactive **Computer Organization & Architecture (COA) Number-System Converter**, verified course assignments, real achievements, live GitHub repository synchronization, and full responsiveness. Ready for zero-config production deployment on [Vercel](https://vercel.com).
+A high-performance personal portfolio website engineered for **Kshitij Singh** (Roll No: `25BAI10037`, B.Tech Artificial Intelligence, 2nd Year). Features an interactive **Computer Organization & Architecture (COA) Number-System Converter**, verified course assignments, real achievements, live GitHub repository synchronization, and full responsiveness. Ready for zero-config production deployment on [Vercel](https://vercel.com).
 
 ![Tech Stack](https://img.shields.io/badge/Next.js-16_App_Router-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
