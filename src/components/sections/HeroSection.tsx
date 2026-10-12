@@ -105,12 +105,12 @@ export function HeroSection() {
 
               <div className="relative bento-card p-5 bg-white border border-slate-200 shadow-xl">
                 {/* Visual Image */}
-                <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-50 border border-slate-200">
+                <div className="relative aspect-[4/5] w-full rounded-xl overflow-hidden bg-slate-50 border border-slate-200">
                   <Image
                     src={profile.avatarUrl}
                     alt={`${profile.name} - Computer Science Student`}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                     priority
                   />
                 </div>

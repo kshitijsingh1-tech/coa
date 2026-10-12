@@ -184,7 +184,7 @@ export function ContactSection() {
             src={profile.avatarUrl}
             alt={profile.name}
             fill
-            className="object-cover rounded-full"
+            className="object-cover object-top rounded-full"
           />
         </div>
 
