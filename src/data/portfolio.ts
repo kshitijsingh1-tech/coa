@@ -113,7 +113,7 @@ export const PORTFOLIO_DATA: PortfolioConfig = {
       "My focus centers on the intersection of clean software architecture and powerful language models — from autonomous agents with tool-calling capabilities to production conversational AI with 24/7 uptime.",
       "Comfortable working across the backend stack with Python, C++, FastAPI, and local/cloud LLM integrations, while actively sharpening algorithmic problem-solving with 100+ problems solved on LeetCode.",
     ],
-    avatarUrl: "/images/profile.svg",
+    avatarUrl: "/images/profile.png",
     location: "India",
   },
 
